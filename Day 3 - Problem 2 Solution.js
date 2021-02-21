@@ -12,7 +12,8 @@ let solution = []
 
 for (i = y; i < hill.length; i+=y) {
 	count+=x;
-	console.log('x: ' + count + ', y: ' + i);
+	//console.log('x: ' + count + ', y: ' + i);
+	//for testing to ensure each slope started and ended at the correct positions
 	if (hill[i].repeat(hill_width).charAt(count) === "#") {
 		trees++;
 	}
